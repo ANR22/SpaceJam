@@ -57,7 +57,7 @@ class HotelFileHandling{
 		 try {
 			File obj2 = new File(filename);
       			Scanner obj3 = new Scanner(obj2);
-			password2=myReader.nextLine();
+			password2=obj3.nextLine();
 			if(password2.equals(password)){
 				login=true;
 			}
